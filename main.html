@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <center>
+        <img src="images.jpg" alt="Bill Splitter" class="logo" />
+        <h1>Bill Splitter</h1>
+        <p style="font-size: 16px; font-weight: bold; color: #94A3B8;">split bill easily with friends,Whether it's a dinner,a trip, or any shared <br>expense,get fair spilts in seconds.</p>
+    </center>
+    <div class="container">
+      <div class="input-section">
+        <h2>Enter Details</h2>
+        <div class="input-group">
+          <label for="total-bill">Total Bill Amount:</label>
+          <input type="number" id="total-bill" placeholder="Enter total bill amount" />
+          </div>
+          <div class="input-group">
+         <label for="service-charge">Service Charge / Tip(%):</label>
+        <input type="number" id="service-charge" placeholder="Enter service charge percentage" />
+        </div>
+        <div class="input-group">
+        <label for="num-people">Number of People:</label>
+        <input type="number" id="num-people" placeholder="Enter number of people" />
+        </div>
+        <button id="calculate-btn">Split The Bill</button>
+      </div>
+      <div class="input-section2">
+        <h2>Split Summary</h2>
+        <div class="summary-grid">
+        <div class="box tip">
+            <h3>Base Amount</h3>
+            <p id="base">₹0.00</p>
+        </div>
+
+        <div class="box total">
+            <h3>Total Bill</h3>
+            <p id="total">₹0.00</p>
+        </div>
+
+        <div class="box person">
+            <h3>Tip amount</h3>
+            <p id="tip-amount">₹0.00</p>
+        </div>
+
+        <div class="box tip-person">
+            <h3>Amount Per Person</h3>
+            <p id="amount-person">₹0.00</p>
+        </div>
+    </div>
+    <div class="note"> 
+        <div class="note-icon">
+            <img src="images (1).jpg" alt="Note Icon" />
+        </div>
+        <div class="note-text">
+        <h3 style="color: blueviolet;">Fair and Simple</h3>
+        <p>We automatically calculate the final amount and split it equally<br> among everyone.</p>
+    </div>
+      </div>
+  </body>

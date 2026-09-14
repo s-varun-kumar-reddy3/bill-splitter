@@ -1,0 +1,117 @@
+body {
+    background: #182030;
+    color: #F8FAFC;
+}
+.logo {
+    width:70px;
+    margin-bottom: -15px;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+input {
+    background: #101828;
+    color: #F8FAFC;
+     width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #384050;
+    padding: 0 10px 0 20px;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #8B5CF6;
+}
+button {
+    background: linear-gradient(90deg, #8B5CF6, #60A5FA);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+.container {
+   display: flex;
+   justify-content:center;
+   gap:20px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    background: #202838;
+    border: 1px solid #384050;
+    width: 300px;
+    padding:0 50px 0 50px;
+    height: 550px;
+    border-radius: 20px;
+        gap: 30px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+.input-section2{
+    display: flex;
+    flex-direction: column;
+    background: #202838;
+    border: 1px solid #384050;
+    width: 600px;
+    padding: 0 50px 0 50px;
+    height: 550px;
+    border-radius: 20px;
+        gap: 30px;
+}
+.summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.box {
+    padding: 10px 10px 10px 20px;
+    border-radius: 15px;
+}
+.tip {
+    background: #24324a;
+}
+
+.total {
+    background: #203b3b;
+}
+
+.person {
+    background: #34264a;
+}
+
+.tip-person {
+    background: #403329;
+}
+.note{
+    background: #101828;
+    border-radius: 10px;
+    padding:0 40px 0 0px;
+       display: flex;
+    gap: 10px;
+}
+.box h3 {
+    color: #F8FAFC;
+    font-weight: bold;
+}
+
+/* ₹ amounts */
+.box p {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+}
+.fair-simple h3 {
+    color: #A78BFA;
+}
+
+.fair-simple p {
+    color: #F1F5F9;
+}
+.note-icon img{
+    width: 100px;
+    height: 120px;
+}
